@@ -24,7 +24,7 @@ export const hero = {
      "Business Intelligence",
       ],
 
-  resume: "/public/Rosemary_Mtape_CV.pdf",
+  resume: "/Rosemary_Mtape_CV.pdf",
 };
 
 export const techStack = [

@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { hero } from "../../data/portfolio";
 
+
 function HeroButtons() {
   return (
     <motion.div
