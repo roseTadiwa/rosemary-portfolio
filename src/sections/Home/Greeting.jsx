@@ -1,11 +1,20 @@
 import { hero } from "../../data/portfolio";
 
+import { motion } from "framer-motion";
+
+
 function Greeting() {
   return (
-    <p className="text-teal-400 text-lg md:text-xl font-medium mb-4">
+    <motion.p
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6 }}
+      className="text-teal-400 text-lg md:text-xl font-semibold tracking-wide uppercase"
+    >
       {hero.greeting}
-    </p>
+    </motion.p>
   );
 }
+
 
 export default Greeting;

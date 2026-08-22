@@ -2,7 +2,7 @@ import { techStack } from "../../data/portfolio";
 
 function HeroTechStack() {
   return (
-    <div className="mt-12 flex flex-wrap justify-center gap-4">
+    <div className="mt-12 flex flex-wrap justify-center md:justify-start gap-4">
       {techStack.map((tech) => (
         <div
           key={tech}
