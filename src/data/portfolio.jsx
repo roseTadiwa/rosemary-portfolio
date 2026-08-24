@@ -10,19 +10,19 @@ export const hero = {
 
   name: "Rosemary Mtape",
 
-   role: "Data Scientist | Data & AI Solutions Developer",
+  role: "Data Scientist | Data & AI Solutions Developer",
 
   headline: "Building intelligent solutions from data.",
 
   description:
     "I build intelligent, data-driven solutions that transform information into actionable insights and business value. As a Data Scientist specializing in analytics, machine learning, AI, and business intelligence, I develop predictive models, AI-powered applications, dashboards, and modern web solutions that solve complex problems and support better decision-making.",
-    
-   stats: [
-     "Machine Learning",
-     "Data Engineering",
-     "Artificial Intelligence",
-     "Business Intelligence",
-      ],
+
+  stats: [
+    "Machine Learning",
+    "Data Engineering",
+    "Artificial Intelligence",
+    "Business Intelligence",
+  ],
 
   resume: "/Rosemary_Mtape_CV.pdf",
 };
@@ -47,9 +47,6 @@ export const socialLinks = {
     "https://www.datascienceportfol.io/rosemarymtape",
 };
 
-
-
-
 export const about = {
   eyebrow: "About Me",
 
@@ -67,30 +64,29 @@ export const about = {
     class: "Upper Second Class (2.1)",
   },
 
-cards: [
-  {
-    title: "Artificial Intelligence",
-    description:
-      "Building machine learning models, predictive analytics solutions, and AI-powered applications using modern data science techniques.",
-  },
-  {
-    title: "Data Engineering",
-    description:
-      "Building reliable data pipelines and scalable workflows that prepare, organize, and transform data for analytics and intelligent applications.",
-  },
-  {
-    title: "Software Development",
-    description:
-      "Developing modern applications with React, Django, JavaScript, Python, SQL, and scalable software engineering practices.",
-  },
-  {
-    title: "Data Analytics",
-    description:
-      "Transforming raw data into actionable insights through data visualization, dashboards, business intelligence, and statistical analysis.",
-  },
-],
+  cards: [
+    {
+      title: "Artificial Intelligence",
+      description:
+        "Building machine learning models, predictive analytics solutions, and AI-powered applications using modern data science techniques.",
+    },
+    {
+      title: "Data Engineering",
+      description:
+        "Building reliable data pipelines and scalable workflows that prepare, organize, and transform data for analytics and intelligent applications.",
+    },
+    {
+      title: "Software Development",
+      description:
+        "Developing modern applications with React, Django, JavaScript, Python, SQL, and scalable software engineering practices.",
+    },
+    {
+      title: "Data Analytics",
+      description:
+        "Transforming raw data into actionable insights through data visualization, dashboards, business intelligence, and statistical analysis.",
+    },
+  ],
 };
-
 
 export const skills = {
   eyebrow: "Skills",
@@ -160,7 +156,6 @@ export const skills = {
     },
   ],
 };
-
 
 export const experience = [
   {
@@ -246,11 +241,60 @@ export const experience = [
   },
 ];
 
+/* =========================================================
+   FEATURED PROJECTS
+   ========================================================= */
+
 export const projects = [
   {
-    title: "Automated Incremental Crypto ETL Warehouse Pipeline",
+    title:
+      "Claremont Business School Online Registration & Payment Enhancement",
+
     description:
-      "A data engineering pipeline that collects cryptocurrency market data from a REST API, transforms and validates the data, and incrementally loads it into a MySQL data warehouse using a structured star schema.",
+      "Configured the Claremont Business School website to support online programme registration by adding Register buttons to programme pages, linking prospective students to registration forms and online payment functionality.",
+
+    technologies: [
+      "WordPress",
+      "Website Configuration",
+      "Web Development",
+      "Online Registration",
+      "Payment Integration",
+    ],
+
+    category: "Web Development & Website Administration",
+
+    github: "",
+
+    live: "https://claremontbs.co.zw/",
+  },
+
+  {
+    title: "AI SQL Analyst",
+
+    description:
+      "Built an AI-powered application that allows users to interact with structured data using natural language. The system translates user questions into SQL queries and retrieves results from a relational database.",
+
+    technologies: [
+      "Python",
+      "Django",
+      "SQL",
+      "SQLite",
+      "Artificial Intelligence",
+    ],
+
+    category: "AI & Software Development",
+
+    github: "",
+
+    live: "",
+  },
+
+  {
+    title: "Automated Incremental Crypto ETL Warehouse Pipeline",
+
+    description:
+      "Built an automated ETL pipeline that collects cryptocurrency market data from a REST API, transforms and validates the data, and incrementally loads it into a MySQL data warehouse using a structured star schema.",
+
     technologies: [
       "Python",
       "REST API",
@@ -259,48 +303,20 @@ export const projects = [
       "Data Warehousing",
       "Star Schema",
     ],
-    category: "Data Engineering",
-    github: "",
-    live: "",
-  },
 
-  {
-    title: "AI SQL Analyst",
-    description:
-      "An AI-powered application that allows users to interact with structured data using natural language. The system translates user questions into SQL queries and retrieves results from a relational database.",
-    technologies: [
-      "Python",
-      "Django",
-      "SQL",
-      "SQLite",
-      "Artificial Intelligence",
-    ],
-    category: "AI & Software Development",
-    github: "",
-    live: "",
-  },
-
-  {
-    title: "Live Weather Data Warehouse Pipeline",
-    description:
-      "A live data engineering pipeline that collects weather data for Zimbabwean cities through an API, processes and stores the data in a MySQL warehouse, and prepares it for analytical reporting and trend analysis.",
-    technologies: [
-      "Python",
-      "Open-Meteo API",
-      "MySQL",
-      "ETL",
-      "SQL",
-      "Data Warehousing",
-    ],
     category: "Data Engineering",
+
     github: "",
+
     live: "",
   },
 
   {
     title: "ZiG Exchange Rate Forecasting & Analysis",
+
     description:
-      "A research project analysing ZiG exchange-rate behaviour using statistical, econometric, and machine learning approaches. The project explored forecasting, volatility, and structural changes using time-series models and machine learning techniques.",
+      "Developed statistical, econometric, and machine learning models to analyse ZiG exchange-rate behaviour, including forecasting, volatility, and structural-change analysis.",
+
     technologies: [
       "Python",
       "Machine Learning",
@@ -310,44 +326,14 @@ export const projects = [
       "ARIMA",
       "SARIMA",
     ],
+
     category: "Machine Learning & Research",
-    github: "",
-    live: "",
-  },
 
-  {
-    title: "News Scraper & Categorization System",
-    description:
-      "A Python-based system that collects news articles from online sources and automatically processes and categorizes the collected content, improving the organization and accessibility of news information.",
-    technologies: [
-      "Python",
-      "Web Scraping",
-      "Data Processing",
-      "NLP",
-      "Automation",
-    ],
-    category: "Data & AI",
     github: "",
-    live: "",
-  },
 
-  {
-    title: "African Data Gap Initiative",
-    description:
-      "A research and data analysis project investigating data gaps across key African sectors including healthcare, agriculture, and education, using available datasets to identify patterns, limitations, and opportunities for data-driven solutions.",
-    technologies: [
-      "Python",
-      "Data Analysis",
-      "Research",
-      "Data Visualization",
-      "Machine Learning",
-    ],
-    category: "Data Science & Research",
-    github: "",
-    live: "",
+    live: "/ZiG_Exchange_Rate_Forecasting_Report.pdf",
   },
 ];
-
 
 export const education = [
   {
@@ -390,7 +376,8 @@ export const contact = {
 
   phone: "+263 782 471 091",
 
-  linkedin: "https://www.linkedin.com/in/rosemary-mtape-706457273/",
+  linkedin:
+    "https://www.linkedin.com/in/rosemary-mtape-706457273/",
 
   github: "https://github.com/roseTadiwa",
 };
