@@ -1,3 +1,4 @@
+
 import {
   FaGraduationCap,
   FaRobot,
@@ -161,7 +162,7 @@ export const experience = [
   {
     role: "GenAI Research Assistant",
     company: "MacroEdTech",
-    location: "Remote,India",
+    location: "Remote, India",
     period: "08/2026 – Present",
     type: "Research & AI",
     description:
@@ -247,25 +248,34 @@ export const experience = [
 
 export const projects = [
   {
-    title:
-      "Claremont Business School Online Registration & Payment Enhancement",
+    title: "Zimbabwe Weather Intelligence",
 
     description:
-      "Configured the Claremont Business School website to support online programme registration by adding Register buttons to programme pages, linking prospective students to registration forms and online payment functionality.",
+      "Developed an AI-powered climate intelligence application combining Generative AI, Retrieval-Augmented Generation (RAG), and machine learning for climate research and temperature forecasting in Zimbabwe. The platform features an interactive climate research assistant that uses semantic search and FAISS vector indexing to retrieve relevant information and answer natural-language questions about historical climate events, droughts, agricultural impacts, and climate change. It also integrates an XGBoost regression model for one-hour-ahead temperature prediction using historical hourly weather data (2015–2025), achieving a Mean Absolute Error (MAE) of 0.3448 during evaluation.",
 
     technologies: [
-      "WordPress",
-      "Website Configuration",
-      "Web Development",
-      "Online Registration",
-      "Payment Integration",
+      "Python",
+      "Pandas",
+      "XGBoost",
+      "Generative AI",
+      "RAG",
+      "FAISS",
+      "Ollama",
+      "Llama 3.2",
+      "nomic-embed-text",
+      "MCP",
+      "Flask",
+      "Streamlit",
+      "Open-Meteo API",
     ],
 
-    category: "Web Development & Website Administration",
+    category: "AI & Machine Learning",
 
-    github: "",
+    github:
+      "https://github.com/roseTadiwa/zimbabwe-weather-intelligence-MACROEDTECH/tree/master/part02_genai",
 
-    live: "https://claremontbs.co.zw/",
+    live:
+      "https://zimbabwe-weather-intelligence-macroedtech-s97wwbr2xol9t2cpgfh8.streamlit.app/",
   },
 
   {
