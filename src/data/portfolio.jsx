@@ -276,6 +276,9 @@ export const projects = [
 
     live:
       "https://zimbabwe-weather-intelligence-macroedtech-s97wwbr2xol9t2cpgfh8.streamlit.app/",
+
+    publication:
+      "https://www.macroedtech.net/team-macroedtech/zimbabwe-weather-intelligence-an-evidence-based-climate-research-and-one-hour-ahead-temperature-prediction-system",
   },
 
   {

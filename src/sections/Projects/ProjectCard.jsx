@@ -1,3 +1,4 @@
+
 import FadeIn from "../../components/ui/FadeIn";
 
 function ProjectCard({ project }) {
@@ -58,7 +59,7 @@ function ProjectCard({ project }) {
         </div>
 
         {/* Project Links */}
-        {(project.github || project.live) && (
+        {(project.github || project.live || project.publication) && (
           <div className="flex flex-wrap gap-4 mt-7 pt-5 border-t border-slate-800">
 
             {project.github && (
@@ -92,6 +93,23 @@ function ProjectCard({ project }) {
                 "
               >
                 Live Project →
+              </a>
+            )}
+
+            {project.publication && (
+              <a
+                href={project.publication}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="
+                  text-sm
+                  font-medium
+                  text-teal-400
+                  hover:text-teal-300
+                  transition
+                "
+              >
+                Published on MacroEdTech →
               </a>
             )}
 
